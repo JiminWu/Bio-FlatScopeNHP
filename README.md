@@ -18,5 +18,33 @@ Toolbox required: Parallel Computing Toolbox, Image Processing Toolbox, Signal P
 
 ## Bio-FlatScopeNHP reconstruction
 
+* Fast reconstruction using a single PSF:
+
+  Two supporting fata files are necessary for fast reconstruction:
+  1. A single point spread function (PSF) file, saved as a '.mat' file.
+  2. Raw capture from Bio-FlatScopeNHP, saved as a '.tiff' image file.
+
+  We have provided examples for fast reconstruction test in the directory 'Bio-FlatScopeNHP Reconstruction/Examples'. 
+
+* Reconstruction using spatially-varying PSFs
+
+  Three supporting data files are necessary for spatially-varying reconstruction:
+  1. A '.mat' file including all the registered PSFs.
+  2. A '.mat' file including all the spatially-varying weights.
+  3. Raw capture from Bio-FlatScopeNHP, saved as a '.tiff' image file.
+
+  We have provided example captures in the directory 'Bio-FlatScopeNHP Reconstruction/Examples'. The registered PSFs and spatially-varying weights are avaliable in Google Drive [Link](https://drive.google.com/file/d/1UYPXWlYjghcT7DvZNz0ZURw5mnc63Mzf/view?usp=sharing).
+  
+  Registered PSFs and spatially-varying weights can be generated from raw PSF measurements using 'PSFPreProcess.m'.
 
 ## Data processing code
+
+### Position tuning
+
+### Orientation tuning
+
+
+## Contact Us
+In case of any queries regarding the code, please reach out to [Jimin](mailto:jimin.wu@rice.edu).
+Other raw and analysed data are available for research purpose from corresponding author upon reasonable request.
+
