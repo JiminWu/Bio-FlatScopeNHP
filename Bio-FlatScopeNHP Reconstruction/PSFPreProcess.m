@@ -68,7 +68,7 @@ for folder_num = 1
 end
 
 %% save original PSFs
-%save('PSFs_inter1_Z2.16.mat','PSF','psfNum_eachrow');
+%save('PSFs.mat','PSF','psfNum_eachrow');
 
 %% Init Params
 scale = 1;
@@ -139,8 +139,8 @@ figure, imshow(psf_overall,[]);
 
 
 %% save FPSFs and registered PSFs
-save('FPSFs_inter1_Z2.16.mat','Fpsf','padding_parm');
-save('psfsreg_inter1_Z2.16.mat','psf_reg');
+save('FPSFs.mat','Fpsf','padding_parm');
+save('psfsreg.mat','psf_reg');
 
 %% Get spatially-varying weights
 
@@ -251,4 +251,4 @@ end
 figure, imshow(weights_overall,[]);
 
 %% 
-save('weights_inter1_Z2.16.mat','weights')
+save('weights.mat','weights')
