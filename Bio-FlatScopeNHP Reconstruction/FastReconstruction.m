@@ -2,7 +2,7 @@
 
 
 % Set to working directory
-protoDir = '.\ExampleData\2D_recon\';
+protoDir = './Examples/';
 
 psfExt ='.mat'; % '.mat', '.tiff';
 capExt ='.tiff'; % '.mat', '.tiff', '.avi'; % For avi, select only one file
