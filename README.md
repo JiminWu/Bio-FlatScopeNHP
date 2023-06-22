@@ -33,7 +33,7 @@ Toolbox required: Parallel Computing Toolbox, Image Processing Toolbox, Signal P
   2. A '.mat' file including all the spatially-varying weights.
   3. Raw capture from Bio-FlatScopeNHP, saved as a '.tiff' image file.
 
-  We have provided example captures in the directory 'Bio-FlatScopeNHP Reconstruction/Examples'. The registered PSFs and spatially-varying weights are avaliable in Google Drive [Link](https://drive.google.com/file/d/1UYPXWlYjghcT7DvZNz0ZURw5mnc63Mzf/view?usp=sharing).
+  We have provided example captures in the directory 'Bio-FlatScopeNHP Reconstruction/Examples'. The original captured PSFs [link](https://drive.google.com/file/d/1fL0Vs781GPKXCO3BQB9BdJbiCLgyKiEe/view?usp=sharing), registered PSFs after FFT [link](https://drive.google.com/file/d/16QVv3m3JOxVFdN6qdpZpp_Dw-3_euGGZ/view?usp=sharing) and spatially-varying weights [link](https://drive.google.com/file/d/1Q0ncFi6z5vQexDA_asKif7S0e6ojxybf/view?usp=sharing) are avaliable in Google Drive.
   
   Registered PSFs and spatially-varying weights can be generated from raw PSF measurements using 'PSFPreProcess.m'.
 
