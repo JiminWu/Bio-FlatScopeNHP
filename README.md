@@ -37,12 +37,13 @@ Toolbox required: Parallel Computing Toolbox, Image Processing Toolbox, Signal P
   
   Registered PSFs and spatially-varying weights can be generated from raw PSF measurements using 'PSFPreProcess.m'.
 
-## Data processing code
-
-### Position tuning
-
-### Orientation tuning
-
+## In vivo data processing code
+The directory 'In Vivo Data Processing Code' contains the customized MATLAB code for processing the position tuning data and orientation columns maps.
+Data processing pipelines are the same for ground truth data and Bio-FlatScopeNHP data. Supporting functions can be found in the directory 'In Vivo Data Processing Code/Tools'. References of the data processing code:
+* Chen, Y., Geisler, W. S. & Seidemann, E. Optimal decoding of correlated neural population responses in the primate visual cortex. Nat. Neurosci. 9, 1412–1420 (2006).
+* Palmer, C. R., Chen, Y. & Seidemann, E. Uniform spatial spread of population activity in primate parafoveal V1. J. Neurophysiol. 107, 1857–1867 (2012).
+* Seidemann, E. et al. Calcium imaging with genetically encoded indicators in behaving primates. eLife 5, e16178 (2016).
+* Benvenuti, G. et al. Scale-Invariant Visual Capabilities Explained by Topographic Representations of Luminance and Texture in Primate V1. Neuron 100, 1504-1512.e4 (2018).
 
 ## Contact Us
 In case of any queries regarding the code, please reach out to [Jimin](mailto:jimin.wu@rice.edu).
