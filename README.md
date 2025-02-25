@@ -1,5 +1,5 @@
 # Bio-FlatScopeNHP
-This is an open source repository of the Bio-FlatScopeNHP (Link to be updated).
+This is an open source repository of the Bio-FlatScopeNHP ([link](https://www.nature.com/articles/s41467-024-45417-6)).
 
 "Mesoscopic calcium imaging in head-unrestrained non-human primates using a lensless microscope", Jimin Wu<sup>&</sup>, Yuzhi Chen<sup>&</sup>, Ashok Veeraraghavan, Eyal Seidemann* and Jacob T. Robinson*
 
